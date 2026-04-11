@@ -21,18 +21,19 @@
   <link rel="manifest" href="manifest.json">
 
   <script>
+
     var flet = {
       pyodide: false,
-      multiView: false,
+      multiview: false,
       noCdn: false,
       webSocketEndpoint: "/ws",
       entrypointBaseUrl: "/app-patinaje/",
-      assetBase: "/app-patinaje/assets/",
+      assetBase: "assets/",
       routeUrlStrategy: "path",
-      canvasKitBaseUrl: "/canvaskit/",
-      pyodideUrl: "/pyodide/pyodide.js",
+      canvasKitBaseUrl: "canvaskit/",
+      pyodideUrl: "pyodide/pyodide.js",
       webRenderer: "auto",
-      fontFallbackBaseUrl: "assets/fonts/", // for Noto Emoji, use Google CDN
+      fontFallbackBaseUrl: "assets/fonts/",
       appPackageUrl: "app.tar.gz"
     }
 
